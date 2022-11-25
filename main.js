@@ -17,27 +17,27 @@ let misc = document.getElementById("misc");
 function fun1() {
   let outy = income.value;
   if (outy >= 30000) {
-    out1.innerHTML = income.value;
+    //out1.innerHTML = income.value;
     let food = income.value * 0.15;
-    feeding.innerHTML = food;
+    feeding.innerHTML = `₦${food}`;
     let house = income.value * 0.25;
-    housing.innerHTML = house;
+    housing.innerHTML = `₦${house}`;
     let trans = income.value * 0.1;
-    transport.innerHTML = trans;
+    transport.innerHTML = `₦${trans}`;
     let utils = income.value * 0.05;
-    utilities.innerHTML = utils;
+    utilities.innerHTML = `₦${utils}`;
     insure = income.value * 0.1;
-    insurance.innerHTML = insure;
+    insurance.innerHTML = `₦${insure}`;
     let med = income.value * 0.05;
-    medical.innerHTML = med;
+    medical.innerHTML = `₦${med}`;
     let sidp1 = income.value * 0.1;
-    sidp.innerHTML = sidp1;
+    sidp.innerHTML = `₦${sidp1}`;
     let person = income.value * 0.05;
-    personal.innerHTML = person;
+    personal.innerHTML = `₦${person}`;
     let enjoy1 = income.value * 0.05;
-    enjoy.innerHTML = enjoy1;
+    enjoy.innerHTML = `₦${enjoy1}`;
     let misc1 = income.value * 0.1;
-    misc.innerHTML = misc1;
+    misc.innerHTML = `₦${misc1}`;
   } else {
     alert("Income must be above ₦30000");
   }
