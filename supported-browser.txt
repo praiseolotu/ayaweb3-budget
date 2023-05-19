@@ -2,3 +2,4 @@ Chrome
 Firefox
 Safari
 Edge
+Brave
