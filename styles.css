@@ -110,6 +110,7 @@ button {
 
 .text-center {
   text-align: center;
+  height: 100px;
 }
 
 form {
@@ -175,3 +176,12 @@ form {
   border-radius: 2px;
   cursor: pointer;
 }
+/* .bolastyles{
+  /* display: flex; */
+  /* text-align: center;
+  justify-content: center; */
+  /* margin-right: 50px; */
+/* } */
+/* .ttable{
+  margin-right: 50px;
+} */
